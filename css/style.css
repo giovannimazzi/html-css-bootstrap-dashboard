@@ -1,3 +1,32 @@
+/* Centralizzo il font usato */
 body {
   font-family: "Noto Sans", sans-serif;
+}
+
+/* Centralizzo grandezze testi */
+.fs-custom-todo {
+  font-size: 0.82rem;
+}
+
+.fs-custom-FAQ {
+  font-size: 0.9rem;
+}
+
+.fs-custom-libri {
+  font-size: 0.85rem;
+}
+
+/* Centralizzo spessore testo */
+tbody th {
+  font-weight: normal;
+}
+
+/* Per evutare di nascondere ogni singola cella
+della tabella tramite classi bootstrap, centralizzo 
+con una media query */
+@media (max-width: 575px) {
+  table td:nth-child(2),
+  table th:nth-child(2) {
+    display: none;
+  }
 }

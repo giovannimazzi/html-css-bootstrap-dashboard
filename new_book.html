@@ -87,7 +87,7 @@
           method="post"
         >
           <div class="container p-0">
-            <div class="row row-cols-2">
+            <div class="row row-cols-2 mb-3">
               <div class="col">
                 <label for="nome_autore" class="form-label">Nome Autore</label>
                 <input
@@ -109,6 +109,22 @@
                   placeholder="Inserisci il cognome dell'autore"
                   class="form-control"
                 />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label for="titolo" class="form-label">Titolo</label>
+                <input
+                  type="text"
+                  id="titolo"
+                  name="titolo"
+                  placeholder="Inserisci il titolo del libro"
+                  aria-describedby="caption_titolo"
+                  class="form-control"
+                />
+                <small id="caption_titolo" class="form-text text-muted">
+                  Titolo versione italiana
+                </small>
               </div>
             </div>
             <button type="submit" class="btn btn-primary mt-4">
